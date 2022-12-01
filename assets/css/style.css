@@ -45,62 +45,48 @@ i.fa-solid.fa-user.fa-lg:hover{
     box-shadow: 0 0 0 0.25rem rgb(157, 211, 247);
 }
 .form-check-input:focus{
-    border-color:
-    box-shadow:
+    border-color: rgb(90, 190, 255);
+    box-shadow: rgb(150, 211, 247);
 }
 
-.btn-right{
-    color: rgb(179, 138, 246);
-    border-color: rgb(179, 138, 246);
+.btn btn-primary:focus{
+    border-color: rgb(90, 190, 255);
+    box-shadow: rgb(150, 211, 247);
 }
 
-.btn-right:hover{
-    color: rgb(179, 138, 246);
-    border-color: rgb(179, 138, 246);
-}
-
-{
-    margin: 0;
-    padding: 0;
-}
-
-.container{
-    width: 100%;
-    height: 100vh;
-}
-
-.banner{
-    width: 100%;
-    height: 41vh;
-    background-image: url(./img/BANNER\ 2.png);
+#banner{
+    padding: 0 50px;
+    background-image: url(./img/BANNER.png);
+    height: 45vh;
     background-size: cover;
-    background-position: fixed;
-    border-radius: 15px;
-    position: fixed;
-    margin-top: 100px;
-    margin-left: -110px;
+    background-position: center;
 }
 
-.banner-text{
-    padding-top: 100px;
-    margin-left: 50px;
+#banner::before{
+    content:"";
+    background: rgba(77, 77, 92, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 45vh;
+    left: 0;
 }
 
-.banner-text h3{
-    letter-spacing: 10px;
-    font-weight: bold;
-    font-size: 25px;
+.contenido-banner{
+    position: relative;
+    color: #fff;
+    height: 140%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.btn-right h1{
-    margin-left: 5px;
-    font-size: 100px;
+.contenido-banner h1{
+    font-size: 33px;
+    font-weight: 400;
+    padding: 10px 0;
 }
 
-h1{
-    color: rgb(209, 166, 255);
-}
-
-h3{
-    color: rgb(209, 166, 255);
+.contenido-banner h1 span{
+    font-weight: 600;
 }
