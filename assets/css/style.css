@@ -71,8 +71,9 @@ i.fa-solid.fa-user.fa-lg:hover{
     left: 0;
 }
 
-.contenido-banner{
+.container-banner{
     position: relative;
+    background-position: center;
     color: #fff;
     height: 140%;
     display: flex;
@@ -81,12 +82,12 @@ i.fa-solid.fa-user.fa-lg:hover{
     justify-content: center;
 }
 
-.contenido-banner h1{
+.container-banner h1{
     font-size: 33px;
     font-weight: 400;
     padding: 10px 0;
 }
 
-.contenido-banner h1 span{
+.container-banner h1 span{
     font-weight: 600;
 }
