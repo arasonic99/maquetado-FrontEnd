@@ -92,9 +92,20 @@ i.fa-solid.fa-user.fa-lg:hover{
     font-weight: 600;
 }
 
-hr{
-    background-color: rgb(57, 176, 247);
-    border-color: rgb(57, 176, 247);
-    width:70%;
-    height:2px;
+.progress-bar{
+    background-color: rgb(57, 176, 247) !important;
+}
+
+.footer-basic {
+  padding: 40px 0;
+  background-color: rgb(85, 186, 253);
+  color: rgb(85, 186, 253);
+}
+
+.footer-basic .copyright {
+  margin-top: 3px;
+  text-align: center;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 0;
 }
