@@ -109,3 +109,11 @@ i.fa-solid.fa-user.fa-lg:hover{
   color: rgb(255, 255, 255);
   margin-bottom: 0;
 }
+
+.login {
+    height: 100vh;
+}
+
+.formulario-login {
+    margin-top: 25%;
+}
