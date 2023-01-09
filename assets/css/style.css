@@ -117,3 +117,11 @@ i.fa-solid.fa-user.fa-lg:hover{
 .formulario-login {
     margin-top: 23%;
 }
+
+.perfil {
+    width: 70%;
+}
+
+.admin {
+    font-size: 1rem;
+}
