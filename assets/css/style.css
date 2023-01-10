@@ -105,7 +105,7 @@ footer {
 }
   
 footer .copyright {
-  margin-top: 50vh;  
+  margin-top: 55vh;  
   font-size: 13px;
   color: rgb(255, 255, 255);
   margin-bottom: 0;
@@ -136,5 +136,27 @@ footer .copyright {
 }
 
 .link:hover {
+    color: rgb(57, 176, 247);
+}
+
+nav.vertical {
+    float: left;
+}
+
+li.vertical {
+    display: block;
+    margin: 0;
+    writing-mode: vertical;
+    padding: 3rem 0;
+    display: flex;
+    margin-top: 8rem;
+}
+    
+a, a:hover {
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
     color: rgb(57, 176, 247);
 }
