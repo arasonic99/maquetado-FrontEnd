@@ -148,8 +148,8 @@ li.vertical {
     margin: 0;
     writing-mode: vertical;
     padding: 3rem 0;
-    display: flex;
     margin-top: 8rem;
+    font-size: 1.3rem;
 }
     
 a, a:hover {
@@ -159,4 +159,15 @@ a, a:hover {
 
 a:hover {
     color: rgb(57, 176, 247);
+}
+
+.col-11 {
+    display: block;
+    margin: 0;
+    padding: 3rem 0;
+    margin-top: 6.5rem;
+}
+
+.container {
+    width: 265%;
 }
