@@ -7,4 +7,5 @@ sáb, 17 de dic. 2022 - empecé a editar las secciones.
 mar, 20 de dic. 2022 - secciones hechas (excepto la de "proyectos", ya que aún no finalicé el portfolio web).
 vie, 6 de ene. 2023 - organicé las hojas del login y registro del portfolio.
 lun, 9 de ene. 2023 - empecé a hacer el panel, ergo, a colocar los modal para cada sección del portfolio.
-mié, 11 de ene. 2023 - terminé el panel, ahora me queda colocar mis 2 proyectos en la hoja "index.html", estilizarlos y demás.
+mié, 11 de ene. 2023 - terminé el panel, ahora me queda colocar mi proyecto en la hoja "index.html", estilizarlo y demás.
+jue, 12 de ene. 2023 - maquetado finalizado.
