@@ -130,15 +130,6 @@ footer .copyright {
     font-size: 1rem;
 }
 
-.link {
-    text-decoration: none;
-    color: black;
-}
-
-.link:hover {
-    color: rgb(57, 176, 247);
-}
-
 nav.vertical {
     float: left;
 }
@@ -166,4 +157,16 @@ li.vertical:hover {
 
 .container {
     width: 265%;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(57, 176, 247);
+}
+
+a:link {
+    text-decoration: none;
 }
