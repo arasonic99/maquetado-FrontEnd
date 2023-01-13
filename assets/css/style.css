@@ -1,3 +1,13 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body { 
+    margin: 0;
+    margin-bottom: 60px;
+}
+
 .navbar.navbar-expand-lg.bg-dark{
     background: rgb(240,230,237);
     background: linear-gradient(360deg, rgb(85, 186, 253) 15%, rgba(157,211,247,1) 85%);
@@ -96,22 +106,15 @@ i.fa-solid.fa-user.fa-lg:hover{
     background-color: rgb(57, 176, 247) !important;
 }
 
-footer {
-  width: 100%;
-  height: 110px;
-  background-color: rgb(85, 186, 253);
-  color: rgb(85, 186, 253);
-
-}
-  
-footer .copyright {
-  margin-top: 55vh;  
-  font-size: 13px;
-  color: rgb(255, 255, 255);
-  margin-bottom: 0;
-  line-height: 100px;
-  text-align: center;
-  vertical-align: middle;
+footer, .copyright {
+    background-color: rgb(85, 186, 253);
+    height: 30px;
+    width: 100%;
+    line-height: 45px;
+    text-align: center;
+    position: fixed;
+    color: #fff;
+    bottom: 0;
 }
 
 .login {
@@ -136,11 +139,12 @@ nav.vertical {
 
 li.vertical {
     display: block;
-    margin: 0;
+    margin: 5px;
     writing-mode: vertical;
-    padding: 3rem 0;
-    margin-top: 8rem;
-    font-size: 1.3rem;
+    padding: 1rem 0;
+    margin-top: 10rem;
+    margin-left: -1.5rem;
+    font-size: 1rem;
     color: rgb(57, 176, 247);
 }
 
@@ -151,12 +155,13 @@ li.vertical:hover {
 .col-11 {
     display: block;
     margin: 0;
-    padding: 3rem 0;
+    padding: 1rem 0;
     margin-top: 6.5rem;
 }
 
 .container {
-    width: 265%;
+    width: 100vh;
+    margin-top: 3.5rem;
 }
 
 a {
