@@ -1,12 +1,3 @@
-html,body {
-    min-height: 100vh;
-    min-width: 200px;
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    margin-bottom: 60px;
-}
-
 .navbar.navbar-expand-lg.bg-dark{
     background: rgb(240,230,237);
     background: linear-gradient(360deg, rgb(85, 186, 253) 15%, rgba(157,211,247,1) 85%);
